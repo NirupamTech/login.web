@@ -1,0 +1,35 @@
+body h2 {
+  text-align: center;
+}
+body button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+  background-size: 200%;
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+body button:hover {
+  background-position: right;
+}
+body a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: white;
+}
